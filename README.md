@@ -104,8 +104,8 @@ The patterns are numbered by strength and frequency. The first six justify an ed
 
 | # | Pattern | Before | After |
 |---|---------|--------|-------|
-| 13 | **Overused AI words** | "delve... testament... landscape... showcasing" | Use plain words; the list in SKILL.md is the only vocabulary list |
-| 14 | **Trade shorthand** | "holds the sign-up date fixed", "survives a postcode control", "the postcode read" | Say what the term means in the reader's words |
+| 13 | **Overused AI words** | "delve... testament... landscape... showcasing", "the team's own data" | Use plain words; the list in SKILL.md is the only vocabulary list |
+| 14 | **Trade shorthand** | "holds the sign-up date fixed", "survives a postcode control", "a first cut of the numbers" | Say what the term means in the reader's words |
 | 15 | **Inflated significance** | "marking a pivotal moment", "Despite challenges... continues to thrive", "The future looks bright" | Keep the fact and drop the significance; end on the last concrete fact |
 | 16 | **Vague connection or association** | "associated with the leadership of", "in connection with" | State the relationship the source gives |
 | 17 | **Shallow -ing riders** | "symbolizing... reflecting... showcasing..." | Keep only what the source supports |
@@ -170,6 +170,7 @@ The writer supplied these notes with the draft, so the rewrite can use them: the
 <details>
 <summary>Show release notes</summary>
 
+- **3.2.1** - Added the possessive intensifier "X's own Y" to §13 and the draft sense of "cut" (first cut, rough cut) to §14. No change to the 27 patterns.
 - **3.2.0** - §2 now also catches the restating tail: a trailing cleft clause that says the first clause again with the emphasis moved ("..., and the copy is what the caller holds"), plus the fronted form ("What the caller holds is the copy."). Renamed §2 to cover it. Still 27 patterns.
 - **3.1.0** - Added two patterns. §5 catches the headline-then-evidence sentence ("Referral rates are flat: 20 to 23%..."), its two-sentence and bold-bullet forms, and fragments that only announce what follows. §14 catches trade shorthand such as "cut", "read", "control" and "cohort" that a reader outside the writer's field will not follow. Old to new numbers: 5 to 12 become 6 to 13, 13 to 25 become 15 to 27. 27 patterns total.
 - **3.0.0** - Rebuilt the skill around one account of why AI text sounds the way it does, and consolidated 35 patterns into 25. Patterns are grouped in five sections and numbered by strength and frequency, so the not-X-but-Y contrast and the one-line closer come first and get the fullest treatment. Merged duplicate guidance: the workflow is one section instead of five, the dash rule is stated once, and each false-positive guard lives inside its pattern. Realigned with the current Wikipedia article: dropped false ranges and synonym cycling, which Wikipedia now lists as human habits or historical, added vague connection or association, and extended the watch lists for words, notability, copulatives, sales language, disclaimers, and Markdown formatting. Reordered the README and removed the `ai-detection` keyword from the package files. Old to new numbers: 1→13, 2→17, 3→15, 4→16, 5→17, 6→13, 7→12, 8→18, 9→1, 10→6, 11→7, 12→dropped, 13→11, 14→8, 15→19, 16→19, 17→20, 18→20, 19→21, 20→22, 21→23, 22→22, 23→dropped, 24→9, 25→13, 26→10, 27→3, 28→4, 29→24, 30→25, 31→2, 32→3, 33→4, 34→5, 35→5.

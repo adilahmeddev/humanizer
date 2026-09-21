@@ -7,7 +7,7 @@ description: |
   language, stock AI words, bold labels, headline-then-evidence sentences, trade shorthand, or filler. Based on Wikipedia's "Signs of AI writing."
 license: MIT
 metadata:
-  version: "3.2.0"
+  version: "3.2.1"
 ---
 
 # Humanizer: remove AI writing patterns
@@ -212,7 +212,7 @@ The fact underneath is usually sound. Keep it and remove the dressing.
 
 ### 13. Overused AI words
 
-**Watch for:** Actually, additionally, align with, bolstered, crucial, deep dive, delve, emphasizing, enduring, enhance, fostering, garner, gate/gated/gating (figurative; keep technical uses), highlight (verb), interplay, intricate/intricacies, key (adjective), landscape (abstract noun), meticulous/meticulously, pivotal, quietly, robust (figurative; keep technical uses), showcase, tapestry (abstract noun), testament, underscore (verb), valuable, vibrant
+**Watch for:** Actually, additionally, align with, bolstered, crucial, deep dive, delve, emphasizing, enduring, enhance, fostering, garner, gate/gated/gating (figurative; keep technical uses), highlight (verb), interplay, intricate/intricacies, key (adjective), landscape (abstract noun), meticulous/meticulously, own (as an intensifier in X's own Y; keep it when it contrasts with someone else's), pivotal, quietly, robust (figurative; keep technical uses), showcase, tapestry (abstract noun), testament, underscore (verb), valuable, vibrant
 **Problem:** Models use these words far more often than people do, especially in groups. This is the only vocabulary list in the skill. A formal word outside it is not a tell by itself.
 **Before:**
 > Additionally, a distinctive feature of Somali cuisine is the incorporation of camel meat. An enduring testament to Italian colonial influence is the widespread adoption of pasta in the local culinary landscape, showcasing how these dishes have integrated into the traditional diet.
@@ -221,7 +221,7 @@ The fact underneath is usually sound. Keep it and remove the dressing.
 
 ### 14. Trade shorthand
 
-**Watch for:** cut (for a segmentation), a read (for a finding), controls for, survives a control, holds X fixed, cohort, the population, the base, lens, carries signal, netting, over-index, bears on, and the equivalent shorthand of any other trade
+**Watch for:** cut (for a segmentation or a draft: first cut, rough cut), a read (for a finding), controls for, survives a control, holds X fixed, cohort, the population, the base, lens, carries signal, netting, over-index, bears on, and the equivalent shorthand of any other trade
 **Problem:** Words a profession uses among itself land as jargon on the reader, and a model reaches for them because they are the likeliest words in that register. Say what the word means: "once postcode is taken into account", "customers who signed up two to four years ago", "the figures cover". Keep a term the reader's own field uses or the document defines.
 **Before:**
 > The last column holds the sign-up date fixed and the gap survives, so the uplift is not a cohort effect.
