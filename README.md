@@ -83,7 +83,7 @@ The patterns are numbered by strength and frequency. The first six justify an ed
 | # | Pattern | Before | After |
 |---|---------|--------|-------|
 | 1 | **Not X but Y** | "It's not just X, it's Y", "This doesn't mean X. It means Y." | State the point directly |
-| 2 | **Closers, fragments, and restating tails** | "That is the real win." after every section; "No prior. No nostalgia."; "..., and the copy is what the caller holds" | Cut the closer or tail that repeats; merge fragments into a specific claim |
+| 2 | **Closers, fragments, and restating tails** | "That is the real win." after every section; "No prior. No nostalgia."; "..., and the copy is what the caller holds"; "maps each question to the document types that answer it" | Cut the closer, tail or self-referring clause that repeats; merge fragments into a specific claim |
 | 3 | **Sayings that sound deep** | "At its core, what matters is...", "Symmetry is the language of trust" | Replace the saying with the specific claim |
 | 4 | **Staged run-up before the point** | "Let's dive in", "Honestly? It depends..." | Remove the run-up and state the point |
 | 5 | **Headline, then the evidence** | "Referral rates are flat: 20 to 23%...", "Two things stand out.", bold first sentence in a bullet | Let the evidence lead and draw the point from it; remove the announcing fragment |
@@ -170,6 +170,7 @@ The writer supplied these notes with the draft, so the rewrite can use them: the
 <details>
 <summary>Show release notes</summary>
 
+- **3.3.0** - §2 now also catches the self-referring relative clause: a trailing "that ... it" clause that loops back to the sentence's own subject or object ("maps each question to the document types that answer it"). Added it to the step 3 checklist of tells that survive a rewrite. Still 27 patterns.
 - **3.2.1** - Added the possessive intensifier "X's own Y" to §13 and the draft sense of "cut" (first cut, rough cut) to §14. No change to the 27 patterns.
 - **3.2.0** - §2 now also catches the restating tail: a trailing cleft clause that says the first clause again with the emphasis moved ("..., and the copy is what the caller holds"), plus the fronted form ("What the caller holds is the copy."). Renamed §2 to cover it. Still 27 patterns.
 - **3.1.0** - Added two patterns. §5 catches the headline-then-evidence sentence ("Referral rates are flat: 20 to 23%..."), its two-sentence and bold-bullet forms, and fragments that only announce what follows. §14 catches trade shorthand such as "cut", "read", "control" and "cohort" that a reader outside the writer's field will not follow. Old to new numbers: 5 to 12 become 6 to 13, 13 to 25 become 15 to 27. 27 patterns total.
